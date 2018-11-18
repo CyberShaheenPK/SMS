@@ -22,6 +22,10 @@ public class Teacher
    {
        return id;
    }
+   public String  getName()
+   {
+       return name;
+   }
    
    public int getSalary()
    {
@@ -29,9 +33,15 @@ public class Teacher
    }
    public void setSalary(int id,String name)
    {
-       this.Salary=
-       
+       this.Salary=Salary;    
+   }
+   public void setClass(Class c)
+   {
+       this.Class=Class;
    }
   
-   
+   public void addCourse(Course c)
+   {
+       courseLIst.addElement(c);
+   }
 }

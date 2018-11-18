@@ -1,14 +1,20 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package project;
 
-/**
- *
- * @author HUMZA
- */
-public class Class {
-    
+import java.util.jar.Attributes.Name;
+
+
+public class Class 
+{
+   private String className;
+   private Course classCourse;
+   
+   public void setName(Name n)
+   {
+       this.className=n;
+   }
+   public void addCourse(Course c)
+   {
+       courseList.addElement(c);
+   }
 }
